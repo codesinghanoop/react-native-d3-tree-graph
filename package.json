@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/codesinghanoop/react-native-d3-tree-graph#readme",
   "dependencies": {
-    "d3": "^4.9.1",
+    "d3": "3.5.17",
     "react-native-svg": "^5.1.8"
   }
 }

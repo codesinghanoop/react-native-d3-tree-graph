@@ -11,7 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
-import AwesomeHierarchyGraph from './AwesomeHierarchyGraph.js'
+import AwesomeHierarchyGraph from 'react-native-d3-tree-graph'
 
 var root = {
     name: "",
