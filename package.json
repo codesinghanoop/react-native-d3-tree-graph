@@ -1,0 +1,37 @@
+{
+  "name": "react-native-d3-tree-graph",
+  "version": "1.0.0",
+  "description": "A topological graph implementation using d3 graphs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesinghanoop/react-native-d3-tree-graph.git"
+  },
+  "keywords": [
+    "graph",
+    "d3",
+    "android",
+    "ios",
+    "shapes",
+    "svg",
+    "flow-chart",
+    "topological-graph",
+    "tree",
+    "hierarchy",
+    "family-tree",
+    "d3-hierarchy"
+  ],
+  "author": "Anoop Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesinghanoop/react-native-d3-tree-graph/issues"
+  },
+  "homepage": "https://github.com/codesinghanoop/react-native-d3-tree-graph#readme",
+  "dependencies": {
+    "d3": "^4.9.1",
+    "react-native-svg": "^5.1.8"
+  }
+}
