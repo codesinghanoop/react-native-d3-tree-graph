@@ -105,5 +105,3 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-
-AppRegistry.registerComponent('chartDemo', () => chartDemo);
