@@ -9,6 +9,7 @@
 	"dependencies": {
 		"react": "16.0.0-alpha.6",
 		"react-native": "0.44.0",
+		"react-native-d3-tree-graph": "^1.0.3",
 		"react-native-svg": "^5.1.8"
 	},
 	"devDependencies": {
