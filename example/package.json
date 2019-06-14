@@ -12,7 +12,7 @@
 		"prop-types": "^15.7.2",
 		"react": "16.8.3",
 		"react-native": "0.59.9",
-		"react-native-d3-tree-graph": "^1.0.10",
+		"react-native-d3-tree-graph": "^1.0.11",
 		"react-native-svg": "^9.5.1",
 		"react-native-svg-uri": "^1.2.3"
 	},
