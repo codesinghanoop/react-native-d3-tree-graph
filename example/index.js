@@ -20,7 +20,10 @@ var root = {
     children: [ {
             name: "Q",
             id: 16,
-            no_parent: true
+            no_parent: true,
+            imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+            nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+            nodeTextStyle: { fontSize: 12 }
         },
         {
         name: "",
@@ -30,17 +33,22 @@ var root = {
         children: [{
             name: "J",
             id: 12,
-
+            imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+            nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+            nodeTextStyle: { fontSize: 12 }
         }, {
             name: "L",
             id: 13,
-            no_parent: true
+            no_parent: true,
+            imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+            nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+            nodeTextStyle: { fontSize: 12 }
         }, {
             name: "C",
             id: 3,
             imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
             nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
-            nodeTextStyle: { fontSize: 12, width: 0 }
+            nodeTextStyle: { fontSize: 12 }
         }, {
             name: "",
             id: 4,
@@ -49,6 +57,9 @@ var root = {
             children: [{
                 name: "D",
                 id: 5,
+                imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+                nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+                nodeTextStyle: { fontSize: 12 }
             }, {
                 name: "",
                 id: 14,
@@ -57,29 +68,50 @@ var root = {
                 children: [{
                     name: "P",
                     id: 15,
+                    imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+                    nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+                    nodeTextStyle: { fontSize: 12 }
                 }]
             }, {
                 name: "E",
                 id: 6,
+                imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+                nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+                nodeTextStyle: { fontSize: 12 }
             }]
         }, {
             name: "K",
-            id: 11
+            id: 11,
+            imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+            nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+            nodeTextStyle: { fontSize: 12 }
         }, {
             name: "G",
             id: 7,
+            imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+            nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+            nodeTextStyle: { fontSize: 12 },
             children: [{
                 name: "H",
                 id: 8,
+                imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+                nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+                nodeTextStyle: { fontSize: 12 }
             }, {
                 name: "I",
                 id: 9,
+                imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+                nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+                nodeTextStyle: { fontSize: 12 }
             }]
         }]
     }, {
         name: "M",
         id: 10,
         no_parent: true,
+        imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+        nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+        nodeTextStyle: { fontSize: 12 },
         children: [
           
         ]

@@ -1,6 +1,6 @@
 {
   "name": "react-native-d3-tree-graph",
-  "version": "1.0.7",
+  "version": "1.0.11",
   "description": "A topological graph implementation using d3 graphs.",
   "main": "index.js",
   "scripts": {
