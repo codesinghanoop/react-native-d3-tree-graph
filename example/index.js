@@ -37,7 +37,10 @@ var root = {
             no_parent: true
         }, {
             name: "C",
-            id: 3
+            id: 3,
+            imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}},
+            nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 },
+            nodeTextStyle: { fontSize: 12, width: 0 }
         }, {
             name: "",
             id: 4,
@@ -104,7 +107,7 @@ var root = {
             name: "I",
             id: 9,
         },
-        
+
       ]
     },
     {

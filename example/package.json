@@ -7,14 +7,18 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"react": "16.0.0-alpha.6",
-		"react-native": "0.44.0",
-		"react-native-d3-tree-graph": "^1.0.7",
-		"react-native-svg": "^5.1.8"
+		"@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+		"metro-react-native-babel-preset": "^0.54.1",
+		"prop-types": "^15.7.2",
+		"react": "16.8.3",
+		"react-native": "0.59.9",
+		"react-native-d3-tree-graph": "^1.0.10",
+		"react-native-svg": "^9.5.1",
+		"react-native-svg-uri": "^1.2.3"
 	},
 	"devDependencies": {
 		"babel-jest": "20.0.3",
-		"babel-preset-react-native": "1.9.2",
+		"babel-preset-react-native": "^5.0.2",
 		"jest": "20.0.3",
 		"react-test-renderer": "16.0.0-alpha.6"
 	},
