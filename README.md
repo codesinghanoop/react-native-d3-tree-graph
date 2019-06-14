@@ -1,11 +1,35 @@
 # react-native-d3-tree-graph
 An implementation of d3 graph to construct flow chart(d3 topological graph(tree)).
 
+**Latest version Release note**
+
+ - Now images can be added in place of rectangles in all nodes.
+ - Annoying issue with the previous version was collision between react-native-svg versions and it's resolved now.
+ - New props are available to style node which will be included along with node object like below.
+   ```{
+            name: "J",
+            id: 12,
+            imageUrl: { href: { uri: "https://facebook.github.io/react-native/docs/assets/favicon.png"}}, //new prop
+            nodeImageStyle: { imageHeight: 60 , imageWidth: 60, opacity: 1 }, //new prop
+            nodeTextStyle: { fontSize: 12 } //new prop
+   }```
+ - Example is upgraded to latest version of react native i.e 0.59.9 and react-native-svg i.e 9.5.1
+ 
+**A big thanks to SUI for giving me this idea of upgrading library to show images**
+
+
+**Try the example app
+
+![](https://github.com/codesinghanoop/react-native-d3-tree-graph/blob/master/Images/androidExample.png)
+
+![](https://github.com/codesinghanoop/react-native-d3-tree-graph/blob/master/Images/iOSExample.png)
+ 
 **Getting Started**
 
  - Step 1- npm install react-native-d3-tree-graph --save
- - Step 2- react-native link react-native-svg
- - Step 3- Build the project and watch the beauty.
+ - Step 2 - npm install react-native-svg --save
+ - Step 3- react-native link react-native-svg
+ - Step 4- Build the project and watch the beauty.
  
 ----------
 
@@ -79,8 +103,6 @@ Note: For proper understanding see the [example][1]
 ----------
 
 **Todo list:-**    
-
- -  Props to handle styling of nodes.
 
  -  Callbacks.
 
