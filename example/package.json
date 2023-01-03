@@ -17,9 +17,9 @@
 		"react-native-svg-uri": "^1.2.3"
 	},
 	"devDependencies": {
-		"babel-jest": "20.0.3",
+		"babel-jest": "29.3.1",
 		"babel-preset-react-native": "^5.0.2",
-		"jest": "20.0.3",
+		"jest": "29.3.1",
 		"react-test-renderer": "16.0.0-alpha.6"
 	},
 	"jest": {
